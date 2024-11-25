@@ -7,7 +7,7 @@ export default function Home() {
                 </div>
                 <nav>
                     <a href="/">Home</a>
-                    <a href="/">Books</a>
+                    <a href="/books">Books</a>
                     <a href="/About">About</a>
                     <a href="/Contacts">Contacts</a>
                 </nav>
