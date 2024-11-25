@@ -1,3 +1,6 @@
+import MainMenu from "../Components/MainMenu";
+
+
 export default function Contacts() {
     return (
         <>
@@ -5,12 +8,7 @@ export default function Contacts() {
                 <div className="logo">
                     logo
                 </div>
-                <nav>
-                    <a href="/">Home</a>
-                    <a href="/books">Books</a>
-                    <a href="/About">About</a>
-                    <a href="/Contacts">Contacts</a>
-                </nav>
+                <MainMenu />
             </header>
             <main>
                 <h1>Contacts</h1>
