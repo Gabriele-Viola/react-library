@@ -1,5 +1,6 @@
 import MainMenu from "../Components/MainMenu";
 
+
 export default function Home() {
     return (
         <>

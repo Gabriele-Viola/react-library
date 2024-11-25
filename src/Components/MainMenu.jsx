@@ -1,12 +1,12 @@
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 
 export default function MainMenu() {
     return (
         <nav>
-            <NavLink href="/">Home</NavLink>
-            <NavLink href="/books">Books</NavLink>
-            <NavLink href="/About">About</NavLink>
-            <NavLink href="/Contacts">Contacts</NavLink>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/books">Books</NavLink>
+            <NavLink to="/About">About</NavLink>
+            <NavLink to="/Contacts">Contacts</NavLink>
         </nav>
     )
 }

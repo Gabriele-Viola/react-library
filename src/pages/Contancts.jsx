@@ -1,4 +1,4 @@
-import MainMenu from "../Components/MainMenu";
+import MainMenu from "../Components/MainMenu"
 
 
 export default function Contacts() {
