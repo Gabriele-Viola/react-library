@@ -1,6 +1,3 @@
-import MainMenu from "../Components/MainMenu"
-
-
 export default function Contacts() {
     return (
         <>

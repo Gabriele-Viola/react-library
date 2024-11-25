@@ -1,20 +1,15 @@
 import { Outlet } from "react-router";
 import MainMenu from './MainMenu'
+import AppFooter from "./AppFooter";
+import AppHeader from "./AppHeader";
 export default function DefaultLayout() {
     return (
         <>
-            <header>
-                <div className="logo">
-                    logo
-                </div>
-                <MainMenu />
-            </header>
+            <AppHeader />
             <main>
                 <Outlet />
             </main>
-            <footer>
-                copyright 2024
-            </footer>
+            <AppFooter />
         </>
     )
 }

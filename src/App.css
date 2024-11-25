@@ -26,13 +26,19 @@ header {
         a {
             text-decoration: none;
             color: var(--react-library-light);
-            padding: 0 .25rem;
+            padding: 0 .5rem;
+
+            &.active {
+                background-color: var(--react-library-light);
+                color: var(--react-library-dark);
+                border-radius: 200px;
+            }
         }
     }
 }
 
 main {
-    min-height: calc(100vh - 80px);
+    min-height: calc(100vh - 52px);
 }
 
 footer {
